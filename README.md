@@ -69,3 +69,40 @@ Para executar os testes automatizados com Cypress, use o seguinte comando:
 ```bash
 npx cypress open
 ```
+
+Claro! Aqui estão as seções de Contribuição e Licença completadas para o seu projeto:
+
+---
+
+**Contribuição**
+
+Se você deseja contribuir para o projeto "Quanto Vai Cair - Testes Automatizados com Cypress", siga estas etapas:
+
+1. **Fork o Repositório**: Faça um fork do repositório para sua própria conta do GitHub.
+2. **Clone o Repositório**: Clone o repositório forkado para sua máquina local usando:
+   ```bash
+   git clone https://github.com/seu-usuario/repositorio.git
+   ```
+3. **Crie uma Branch**: Crie uma nova branch para sua contribuição:
+   ```bash
+   git checkout -b minha-contribuicao
+   ```
+4. **Faça suas Alterações**: Faça as alterações desejadas e adicione os testes conforme necessário.
+5. **Commit e Push**: Faça commit das suas alterações e envie para o repositório forkado:
+   ```bash
+   git add .
+   git commit -m "Descrição das minhas alterações"
+   git push origin minha-contribuicao
+   ```
+6. **Abra um Pull Request**: Vá até o repositório original e abra um pull request para que suas alterações possam ser revisadas e, se aprovadas, integradas ao projeto.
+
+Agradecemos suas contribuições e estamos felizes em receber feedback e melhorias para garantir que a aplicação esteja sempre em ótimo estado!
+
+---
+
+**Licença**
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+
+A Licença MIT é uma licença permissiva que é amplamente utilizada e reconhecida. Ela permite que você use, copie, modifique, mescle, publique, distribua, sublicencie e/ou venda cópias do Software, desde que a permissão e o aviso de copyright sejam incluídos em todas as cópias ou partes substanciais do Software.
+
