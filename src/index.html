@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Quanto vai cair?</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="container1">
+
+    <div class="container">
+      <h1 class="tittle">Quanto vai cair?</h1>
+
+      <div class="card">
+        <div>
+          <div class="salario js-scroll">
+            <div class="salario-descricao">
+              <img class="dollar" src="./img/dollar-symbol.png" alt="">
+              <input id="valorSalario" type="number" placeholder="Salario Bruto" value="0">
+            </div>
+            <p>Salario bruto</p>
+          </div>
+
+          <div class="descontos js-scroll">
+            <div class="descontos-descricao j">
+              <img class="dollar" src="./img/dollar-symbol.png" alt="">
+              <input id="valorDescontos" type="number" placeholder="Descontos" value='0'>
+            </div>
+            <p>Descontos Adicionais</p>
+          </div>
+
+          <div class="vale-transporte js-scroll">
+            <div class="vale-transporte-btn">
+              <button id="vts">Sim</button>
+              <button id="vtn">Não</button>
+            </div>
+            <p>Usa Vale transporte?</p>
+          </div>
+        </div>
+
+        <div class="logos">
+          <div>
+            <p>* * * *</p>
+            <img class="chip" src="./img/chip (3).png" alt="">
+          </div>
+
+          <div>
+            <img class="mastercard" src="./img/money (1).png" alt="mastercard">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container2">
+      <div class="descontos">
+        <h2>Descontos em folha</h2>
+
+        <ul class="descontos-lista">
+
+          <div class="js-scroll">
+            <li>Salario Liquido</li>
+            <p id="salarioLiquido" class="salario-liquido">0,00</p>
+          </div>
+          <hr>
+
+          <div class="js-scroll">
+            <li>INSS</li>
+            <p id="INSS" class="INSS">0,00</p>
+          </div>
+          <hr>
+
+          <div class="js-scroll">
+            <li>Imposto de Renda</li>
+            <p id="impostoDeRenda" class="imposto-de-renda">0,00</p>
+          </div>
+          <hr>
+
+          <div class="js-scroll">
+            <li>Vale transporte</li>
+            <p id="valeTransporte" class="valeTransporte">0,00</p>
+          </div>
+          <hr>
+
+          <div class="js-scroll">
+            <li>Descontos Adicionais</li>
+            <p id="descontosAdicionais" class="descontos-adicionais">0,00</p>
+          </div>
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="container3">
+      <button id="calc" class="calcular">Calcular</button>
+    </div>
+  </div>
+
+
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
