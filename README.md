@@ -32,7 +32,7 @@ Para rodar os testes, você precisa do Node.js e do npm (Node Package Manager). 
 - **Windows/Mac/Linux:**
   - Visite a [página de downloads do Node.js](https://nodejs.org/).
   - Baixe e instale a versão recomendada (ou a versão LTS) que inclui o npm.
-  - 
+  - Inicie o npm
 ```bash
  npm init --yes
 ```
