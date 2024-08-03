@@ -1,7 +1,3 @@
-Claro! Aqui está o README padronizado e organizado para o projeto:
-
----
-
 # Quanto Vai Cair - Testes Automatizados com Cypress
 
 Este projeto contém testes automatizados para a aplicação "Quanto Vai Cair", que calcula os descontos trabalhistas previstos em folha com base no valor do salário bruto. O objetivo é garantir o correto funcionamento dos cálculos e a usabilidade da aplicação.
