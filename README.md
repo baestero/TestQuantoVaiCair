@@ -1,8 +1,4 @@
-Claro! Aqui está o README padronizado e organizado para o projeto:
-
----
-
-# Quanto Vai Cair - Testes Automatizados com Cypress
+## Quanto Vai Cair - Testes Automatizados com Cypress
 
 Este projeto contém testes automatizados para a aplicação "Quanto Vai Cair", que calcula os descontos trabalhistas previstos em folha com base no valor do salário bruto. O objetivo é garantir o correto funcionamento dos cálculos e a usabilidade da aplicação.
 
@@ -22,10 +18,16 @@ A aplicação "Quanto Vai Cair" realiza cálculos dos descontos trabalhistas bas
 
 ## Funcionalidades dos Testes
 
-- **Comportamento da Aplicação**: Verifica se a aplicação realiza os cálculos corretamente conforme o valor do salário bruto inserido.
-- **Validações**: Testa a validação de entradas e mensagens de erro para dados inválidos.
-- **Usabilidade**: Avalia a experiência do usuário, garantindo que a interface seja intuitiva e fácil de usar.
-- **Resultados**: Confirma se os resultados apresentados pela aplicação estão corretos e de acordo com as regras trabalhistas.
+- **Verificação do Título**: Confirma se o título da aplicação é exibido corretamente.
+- **Cálculo com Valor Estipulado em 0**: Testa o comportamento ao calcular com um valor de entrada igual a 0.
+- **Cálculo com Valor Limpo**: Verifica a mensagem de alerta ao tentar calcular com o campo de valor vazio.
+- **Preenchimento de Salário sem Selecionar Preferência por Vale Transporte**: Testa a exibição de mensagem de alerta ao tentar calcular sem selecionar a preferência por vale transporte.
+- **Preenchimento de Salário com Vale Transporte (SIM e NÃO)**: Verifica o cálculo correto do vale transporte conforme a seleção feita (SIM ou NÃO).
+- **Preenchimento de Salário com Descontos Adicionais e Vale Transporte (SIM e NÃO)**: Testa o cálculo correto considerando descontos adicionais junto ao vale transporte (SIM ou NÃO).
+- **Preenchimento de Salário com Descontos Adicionais Limpos e Vale Transporte (SIM e NÃO)**: Verifica o cálculo correto sem descontos adicionais, junto ao vale transporte (SIM ou NÃO).
+- **Validação do Salário Líquido**: Confirma se o cálculo do salário líquido está correto, considerando todos os descontos (INSS, Imposto de Renda, Vale Transporte e Descontos Adicionais).
+
+Esses testes garantem que a aplicação "Quanto Vai Cair?" funcione corretamente em diferentes cenários, assegurando a precisão dos cálculos e a apresentação adequada de mensagens de erro e sucesso.
 
 ## Instalação
 
